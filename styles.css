@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    color: black;
+    background-color: #ffffba;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1;
+    display: block;
+  }
+
+  h1 {
+    font-size: 8rem;
+    text-align: centre;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+  }
+
+  h2 {
+    font-size: 5rem;
+    text-align: centre;
+    color: #2F5249;
+    font-family: "Montserrat";
+    margin-top:10;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    text-align: centre;
+    font-family: "Tangerine";
+    margin:0;
+  }
+
+  p {
+    color: black;
+    font-size :2.4rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color : #004030;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }     
+
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+
+  .nav-list a {
+    display: block;
+    font-size: 2.2rem;  
+    padding: 2rem;
+  }
+
+  .nav-list a:hover {
+     background: #B9D4AA;
+     color: black;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #welcome-section {
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    text-align: centre;
+    width:100%;
+    height: 100vh;
+    background-color : #A7C1A8;
+    line-height: 1;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    text-align: centre;
+    width:100%;
+    height: 100vh;
+    background-color : #B9D4AA;
+    line-height: 2;
+  }
+
+  #Contact {
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center;
+    text-align: centre;
+    width:100%;
+    height: 100vh;
+    background-color : #E7F2E4; 
+    line-height: 2;
+  }
+
+@media (max-width: 650px) {
+}
